@@ -28,11 +28,8 @@
 
 | | |
 |---|---|
-
 | `./commit-and-push-to-github.sh` | commits all changes in working directory and pushes them to GitHub. |
-
 | `./build-for-production.sh` | exports environment variable and runs Gulp task. |
-
 | `./publish-on-github-pages.sh` | runs `./commit-and-push-to-github.sh`, `./build-for-production.sh` and pushes `./build` directory to `gh-pages` branch on GitHub. |
 
 
