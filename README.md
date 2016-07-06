@@ -26,6 +26,7 @@
 
 ## Helpful Bash Scripts
 
+| | |
 |---|---|
 
 | `./commit-and-push-to-github.sh` | commits all changes in working directory and pushes them to GitHub. |
