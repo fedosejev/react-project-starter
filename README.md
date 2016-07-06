@@ -1,4 +1,4 @@
-# Simple and minimalistic React.js Project Starter Kit
+# Simple and minimalistic React.js project starter kit
 
 Includes:
 + React.js v15
