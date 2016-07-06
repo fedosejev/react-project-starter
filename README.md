@@ -7,6 +7,7 @@ Includes:
 + Browserify
 + Simple project structure
 + Additional helpful Bash scripts
++ Bootstrap
 
 ## Install
 
