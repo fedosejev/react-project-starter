@@ -26,7 +26,7 @@
 
 ## Helpful Bash Scripts
 
-| | |
+| Name | Description |
 |---|---|
 | `./commit-and-push-to-github.sh` | commits all changes in working directory and pushes them to GitHub. |
 | `./build-for-production.sh` | exports environment variable and runs Gulp task. |
