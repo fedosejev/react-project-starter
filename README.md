@@ -47,6 +47,10 @@ Exports environment variable and runs Gulp task.
 
 Runs `./commit-and-push-to-github.sh`, `./build-for-production.sh` and pushes `./build` directory to `gh-pages` branch on GitHub.
 
+## React.js Tutorials
+
+Check [React.Tips](http://react.tips) for React.js tutorials for beginners.
+
 ## Author
 
 [Artemij Fedosejev](http://artemij.com)
