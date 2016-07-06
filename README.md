@@ -5,6 +5,8 @@ Includes:
 + JavaScript ES2015
 + Gulp
 + Browserify
++ Simple project structure
++ Additional helpful Bash scripts
 
 ## Install
 
