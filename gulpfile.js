@@ -45,4 +45,4 @@ gulp.task('watch', function () {
 gulp.task('build-for-development', ['build-js-for-development', 'build-html-for-development']);
 gulp.task('build-for-production', ['build-js-for-production', 'build-html-for-production']);
 
-gulp.task('default', ['build-js-for-development', 'build-html-for-development', 'watch']);
+gulp.task('default', ['build-for-development', 'watch']);
