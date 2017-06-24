@@ -2,35 +2,42 @@
 
 Includes:
 + React.js v15
-+ JavaScript ES2015
-+ Gulp
-+ Browserify
++ JavaScript ES2016
++ Webpack 2
++ Jest 20
 + Simple project structure
 + Additional helpful Bash scripts
++ SCSS
 + Bootstrap
 
 ## Install
 
-1. `npm install`
-2. `npm install --global http-server`
+1. `yarn`
 
 ## Run
 
-1. `gulp`
-2. `http-server ./build`
-3. Open `http://localhost:8080` in a web browser.
+1. `npm run start`
+2. Open `http://localhost:8080` in a web browser.
+
+## Test
+
+1. `npm run test`
+
+## Build
+
+1. `npm run build`
 
 ## Project Structure
 
 + `source` - all source files.
   + `js` - all JavaScript files.
     + `components` - all React.js component files.
-      + `Application.jsx` - React.js component that encapsulates the entire React.js application.
-    + `app.jsx` - main React.js application file that renders `Application.jsx` component.
+      + `Application.js` - React.js component that encapsulates the entire React.js application.
+    + `index.js` - main React.js application file that renders `Application.js` component.
   + `index.html` - main HTML file.
-+ `build` - all build files.
++ `docs` - all build files.
   + `js` - all JavaScript files.
-    + `app.js` - bundled (and minified) JavaScript file.
+    + `app.[hash].js` - bundled (and minified) JavaScript file.
   + `index.html` - main HTML file.
 
 ## Helpful Bash Scripts
@@ -39,18 +46,9 @@ Includes:
 
 Commits all changes in working directory and pushes them to GitHub.
 
-
-#### `./build-for-production.sh`
-
-Exports environment variable and runs Gulp task.
-
 #### `./publish-on-github-pages.sh`
 
-Runs `./commit-and-push-to-github.sh`, `./build-for-production.sh` and pushes `./build` directory to `gh-pages` branch on GitHub.
-
-#### `./serve-build-files.sh`
-
-Serves static files from `./build` directory on `http://localhost:8080` without caching.
+Runs `npm run build` and `./commit-and-push-to-github.sh`.
 
 ## React.js Tutorials
 
