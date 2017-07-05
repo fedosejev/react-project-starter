@@ -2,6 +2,7 @@
 
 Includes:
 + React.js v15
++ Redux
 + JavaScript ES2016
 + Webpack 2
 + Jest 20
